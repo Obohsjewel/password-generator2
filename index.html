@@ -1,0 +1,22 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1  class="generate">Generate a <span>random password<span></h1>
+        <p class="never">Never use an insecure password again</p>
+        <button onclick="generate()">Generate passwords</button>
+        <hr></hr>
+    <div class="box-section">
+        <div class="pic1">
+            <input id = "password1" class="box"/>
+            <img class="copy-symbol" src="copy.webp" onclick="copyPassword1()"/>
+        </div>
+        <div class="pic2">
+            <input  id = "password2" class="box box1"/>
+            <img class="copy-symbol" src="copy.webp" onclick="copyPassword2()"/>
+        </div>
+   </div>
+        <script src="index.js"></script>
+    </body>
+</html>
